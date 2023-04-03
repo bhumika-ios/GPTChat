@@ -21,6 +21,7 @@
 		AC7796B029DAF31E00AB94CB /* PromptsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7796AF29DAF31E00AB94CB /* PromptsListView.swift */; };
 		AC7796B229DAF37B00AB94CB /* CustomPromptsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7796B129DAF37B00AB94CB /* CustomPromptsView.swift */; };
 		AC7796B529DAF3DC00AB94CB /* DialogueSessionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7796B429DAF3DC00AB94CB /* DialogueSessionListView.swift */; };
+		AC7796B729DAF42900AB94CB /* DialogueListPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7796B629DAF42900AB94CB /* DialogueListPlaceholderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		AC7796AF29DAF31E00AB94CB /* PromptsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptsListView.swift; sourceTree = "<group>"; };
 		AC7796B129DAF37B00AB94CB /* CustomPromptsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPromptsView.swift; sourceTree = "<group>"; };
 		AC7796B429DAF3DC00AB94CB /* DialogueSessionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogueSessionListView.swift; sourceTree = "<group>"; };
+		AC7796B629DAF42900AB94CB /* DialogueListPlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogueListPlaceholderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				AC7796B429DAF3DC00AB94CB /* DialogueSessionListView.swift */,
+				AC7796B629DAF42900AB94CB /* DialogueListPlaceholderView.swift */,
 			);
 			path = DialogueList;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC7796B729DAF42900AB94CB /* DialogueListPlaceholderView.swift in Sources */,
 				AC7796B029DAF31E00AB94CB /* PromptsListView.swift in Sources */,
 				AC77969829DAECF400AB94CB /* Persistence.swift in Sources */,
 				AC7796AE29DAF2D700AB94CB /* MacOSSettingsView.swift in Sources */,
