@@ -24,6 +24,9 @@
 		AC7796B729DAF42900AB94CB /* DialogueListPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7796B629DAF42900AB94CB /* DialogueListPlaceholderView.swift */; };
 		AC7796BA29DAF46F00AB94CB /* MessageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7796B929DAF46F00AB94CB /* MessageListView.swift */; };
 		AC7796BD29DAF5C500AB94CB /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = AC7796BC29DAF5C500AB94CB /* SwiftUIX */; };
+		AC7796C029DAF74500AB94CB /* ConversationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7796BF29DAF74500AB94CB /* ConversationView.swift */; };
+		AC7796C229DAF77100AB94CB /* MessageMarkdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7796C129DAF77100AB94CB /* MessageMarkdownView.swift */; };
+		AC7796C429DAFBDA00AB94CB /* MessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7796C329DAFBDA00AB94CB /* MessageBubble.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +46,9 @@
 		AC7796B429DAF3DC00AB94CB /* DialogueSessionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogueSessionListView.swift; sourceTree = "<group>"; };
 		AC7796B629DAF42900AB94CB /* DialogueListPlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogueListPlaceholderView.swift; sourceTree = "<group>"; };
 		AC7796B929DAF46F00AB94CB /* MessageListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListView.swift; sourceTree = "<group>"; };
+		AC7796BF29DAF74500AB94CB /* ConversationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationView.swift; sourceTree = "<group>"; };
+		AC7796C129DAF77100AB94CB /* MessageMarkdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageMarkdownView.swift; sourceTree = "<group>"; };
+		AC7796C329DAFBDA00AB94CB /* MessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubble.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +146,9 @@
 			isa = PBXGroup;
 			children = (
 				AC7796B929DAF46F00AB94CB /* MessageListView.swift */,
+				AC7796BF29DAF74500AB94CB /* ConversationView.swift */,
+				AC7796C129DAF77100AB94CB /* MessageMarkdownView.swift */,
+				AC7796C329DAFBDA00AB94CB /* MessageBubble.swift */,
 			);
 			path = MessageList;
 			sourceTree = "<group>";
@@ -230,12 +239,15 @@
 				AC7796B229DAF37B00AB94CB /* CustomPromptsView.swift in Sources */,
 				AC7796A529DAEF2E00AB94CB /* Prompt.swift in Sources */,
 				AC7796AC29DAF1F000AB94CB /* AppSettingsView.swift in Sources */,
+				AC7796C029DAF74500AB94CB /* ConversationView.swift in Sources */,
 				AC77969129DAECF300AB94CB /* ContentView.swift in Sources */,
 				AC77968F29DAECF300AB94CB /* GPTChatApp.swift in Sources */,
 				AC77969B29DAECF400AB94CB /* GPTChat.xcdatamodeld in Sources */,
 				AC7796BA29DAF46F00AB94CB /* MessageListView.swift in Sources */,
 				AC7796A329DAEEDA00AB94CB /* Models.swift in Sources */,
 				AC7796B529DAF3DC00AB94CB /* DialogueSessionListView.swift in Sources */,
+				AC7796C229DAF77100AB94CB /* MessageMarkdownView.swift in Sources */,
+				AC7796C429DAFBDA00AB94CB /* MessageBubble.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
