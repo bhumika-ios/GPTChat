@@ -14,6 +14,8 @@
 		AC77969829DAECF400AB94CB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC77969729DAECF400AB94CB /* Persistence.swift */; };
 		AC77969B29DAECF400AB94CB /* GPTChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC77969929DAECF400AB94CB /* GPTChat.xcdatamodeld */; };
 		AC7796A329DAEEDA00AB94CB /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7796A229DAEEDA00AB94CB /* Models.swift */; };
+		AC7796A529DAEF2E00AB94CB /* Prompt.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7796A429DAEF2E00AB94CB /* Prompt.swift */; };
+		AC7796A829DAEFB800AB94CB /* SwiftCSV in Frameworks */ = {isa = PBXBuildFile; productRef = AC7796A729DAEFB800AB94CB /* SwiftCSV */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,7 @@
 		AC77969729DAECF400AB94CB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		AC77969A29DAECF400AB94CB /* GPTChat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GPTChat.xcdatamodel; sourceTree = "<group>"; };
 		AC7796A229DAEEDA00AB94CB /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		AC7796A429DAEF2E00AB94CB /* Prompt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prompt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC7796A829DAEFB800AB94CB /* SwiftCSV in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				AC7796A229DAEEDA00AB94CB /* Models.swift */,
+				AC7796A429DAEF2E00AB94CB /* Prompt.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -100,6 +105,9 @@
 			dependencies = (
 			);
 			name = GPTChat;
+			packageProductDependencies = (
+				AC7796A729DAEFB800AB94CB /* SwiftCSV */,
+			);
 			productName = GPTChat;
 			productReference = AC77968B29DAECF300AB94CB /* GPTChat.app */;
 			productType = "com.apple.product-type.application";
@@ -128,6 +136,9 @@
 				Base,
 			);
 			mainGroup = AC77968229DAECF300AB94CB;
+			packageReferences = (
+				AC7796A629DAEFB800AB94CB /* XCRemoteSwiftPackageReference "SwiftCSV" */,
+			);
 			productRefGroup = AC77968C29DAECF300AB94CB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -155,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC77969829DAECF400AB94CB /* Persistence.swift in Sources */,
+				AC7796A529DAEF2E00AB94CB /* Prompt.swift in Sources */,
 				AC77969129DAECF300AB94CB /* ContentView.swift in Sources */,
 				AC77968F29DAECF300AB94CB /* GPTChatApp.swift in Sources */,
 				AC77969B29DAECF400AB94CB /* GPTChat.xcdatamodeld in Sources */,
@@ -359,6 +371,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AC7796A629DAEFB800AB94CB /* XCRemoteSwiftPackageReference "SwiftCSV" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/swiftcsv/SwiftCSV.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AC7796A729DAEFB800AB94CB /* SwiftCSV */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AC7796A629DAEFB800AB94CB /* XCRemoteSwiftPackageReference "SwiftCSV" */;
+			productName = SwiftCSV;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		AC77969929DAECF400AB94CB /* GPTChat.xcdatamodeld */ = {
