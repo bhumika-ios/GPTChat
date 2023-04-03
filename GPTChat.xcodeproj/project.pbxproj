@@ -17,6 +17,8 @@
 		AC7796A529DAEF2E00AB94CB /* Prompt.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7796A429DAEF2E00AB94CB /* Prompt.swift */; };
 		AC7796A829DAEFB800AB94CB /* SwiftCSV in Frameworks */ = {isa = PBXBuildFile; productRef = AC7796A729DAEFB800AB94CB /* SwiftCSV */; };
 		AC7796AC29DAF1F000AB94CB /* AppSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7796AB29DAF1F000AB94CB /* AppSettingsView.swift */; };
+		AC7796AE29DAF2D700AB94CB /* MacOSSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7796AD29DAF2D700AB94CB /* MacOSSettingsView.swift */; };
+		AC7796B029DAF31E00AB94CB /* PromptsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7796AF29DAF31E00AB94CB /* PromptsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		AC7796A229DAEEDA00AB94CB /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		AC7796A429DAEF2E00AB94CB /* Prompt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prompt.swift; sourceTree = "<group>"; };
 		AC7796AB29DAF1F000AB94CB /* AppSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsView.swift; sourceTree = "<group>"; };
+		AC7796AD29DAF2D700AB94CB /* MacOSSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOSSettingsView.swift; sourceTree = "<group>"; };
+		AC7796AF29DAF31E00AB94CB /* PromptsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 			isa = PBXGroup;
 			children = (
 				AC7796AB29DAF1F000AB94CB /* AppSettingsView.swift */,
+				AC7796AD29DAF2D700AB94CB /* MacOSSettingsView.swift */,
+				AC7796AF29DAF31E00AB94CB /* PromptsListView.swift */,
 			);
 			path = Setting;
 			sourceTree = "<group>";
@@ -184,7 +190,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC7796B029DAF31E00AB94CB /* PromptsListView.swift in Sources */,
 				AC77969829DAECF400AB94CB /* Persistence.swift in Sources */,
+				AC7796AE29DAF2D700AB94CB /* MacOSSettingsView.swift in Sources */,
 				AC7796A529DAEF2E00AB94CB /* Prompt.swift in Sources */,
 				AC7796AC29DAF1F000AB94CB /* AppSettingsView.swift in Sources */,
 				AC77969129DAECF300AB94CB /* ContentView.swift in Sources */,
