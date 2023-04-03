@@ -16,6 +16,7 @@
 		AC7796A329DAEEDA00AB94CB /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7796A229DAEEDA00AB94CB /* Models.swift */; };
 		AC7796A529DAEF2E00AB94CB /* Prompt.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7796A429DAEF2E00AB94CB /* Prompt.swift */; };
 		AC7796A829DAEFB800AB94CB /* SwiftCSV in Frameworks */ = {isa = PBXBuildFile; productRef = AC7796A729DAEFB800AB94CB /* SwiftCSV */; };
+		AC7796AC29DAF1F000AB94CB /* AppSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7796AB29DAF1F000AB94CB /* AppSettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		AC77969A29DAECF400AB94CB /* GPTChat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GPTChat.xcdatamodel; sourceTree = "<group>"; };
 		AC7796A229DAEEDA00AB94CB /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		AC7796A429DAEF2E00AB94CB /* Prompt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prompt.swift; sourceTree = "<group>"; };
+		AC7796AB29DAF1F000AB94CB /* AppSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		AC77968D29DAECF300AB94CB /* GPTChat */ = {
 			isa = PBXGroup;
 			children = (
+				AC7796A929DAF1BE00AB94CB /* View */,
 				AC7796A129DAEEC100AB94CB /* Models */,
 				AC77968E29DAECF300AB94CB /* GPTChatApp.swift */,
 				AC77969029DAECF300AB94CB /* ContentView.swift */,
@@ -87,6 +90,22 @@
 				AC7796A429DAEF2E00AB94CB /* Prompt.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		AC7796A929DAF1BE00AB94CB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC7796AA29DAF1C700AB94CB /* Setting */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC7796AA29DAF1C700AB94CB /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				AC7796AB29DAF1F000AB94CB /* AppSettingsView.swift */,
+			);
+			path = Setting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +186,7 @@
 			files = (
 				AC77969829DAECF400AB94CB /* Persistence.swift in Sources */,
 				AC7796A529DAEF2E00AB94CB /* Prompt.swift in Sources */,
+				AC7796AC29DAF1F000AB94CB /* AppSettingsView.swift in Sources */,
 				AC77969129DAECF300AB94CB /* ContentView.swift in Sources */,
 				AC77968F29DAECF300AB94CB /* GPTChatApp.swift in Sources */,
 				AC77969B29DAECF400AB94CB /* GPTChat.xcdatamodeld in Sources */,
