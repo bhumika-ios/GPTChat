@@ -19,6 +19,7 @@
 		AC7796AC29DAF1F000AB94CB /* AppSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7796AB29DAF1F000AB94CB /* AppSettingsView.swift */; };
 		AC7796AE29DAF2D700AB94CB /* MacOSSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7796AD29DAF2D700AB94CB /* MacOSSettingsView.swift */; };
 		AC7796B029DAF31E00AB94CB /* PromptsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7796AF29DAF31E00AB94CB /* PromptsListView.swift */; };
+		AC7796B229DAF37B00AB94CB /* CustomPromptsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7796B129DAF37B00AB94CB /* CustomPromptsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		AC7796AB29DAF1F000AB94CB /* AppSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsView.swift; sourceTree = "<group>"; };
 		AC7796AD29DAF2D700AB94CB /* MacOSSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOSSettingsView.swift; sourceTree = "<group>"; };
 		AC7796AF29DAF31E00AB94CB /* PromptsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptsListView.swift; sourceTree = "<group>"; };
+		AC7796B129DAF37B00AB94CB /* CustomPromptsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPromptsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				AC7796AB29DAF1F000AB94CB /* AppSettingsView.swift */,
 				AC7796AD29DAF2D700AB94CB /* MacOSSettingsView.swift */,
 				AC7796AF29DAF31E00AB94CB /* PromptsListView.swift */,
+				AC7796B129DAF37B00AB94CB /* CustomPromptsView.swift */,
 			);
 			path = Setting;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				AC7796B029DAF31E00AB94CB /* PromptsListView.swift in Sources */,
 				AC77969829DAECF400AB94CB /* Persistence.swift in Sources */,
 				AC7796AE29DAF2D700AB94CB /* MacOSSettingsView.swift in Sources */,
+				AC7796B229DAF37B00AB94CB /* CustomPromptsView.swift in Sources */,
 				AC7796A529DAEF2E00AB94CB /* Prompt.swift in Sources */,
 				AC7796AC29DAF1F000AB94CB /* AppSettingsView.swift in Sources */,
 				AC77969129DAECF300AB94CB /* ContentView.swift in Sources */,
