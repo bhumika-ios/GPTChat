@@ -13,6 +13,7 @@
 		AC77969629DAECF400AB94CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC77969529DAECF400AB94CB /* Preview Assets.xcassets */; };
 		AC77969829DAECF400AB94CB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC77969729DAECF400AB94CB /* Persistence.swift */; };
 		AC77969B29DAECF400AB94CB /* GPTChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC77969929DAECF400AB94CB /* GPTChat.xcdatamodeld */; };
+		AC7796A329DAEEDA00AB94CB /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7796A229DAEEDA00AB94CB /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		AC77969529DAECF400AB94CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AC77969729DAECF400AB94CB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		AC77969A29DAECF400AB94CB /* GPTChat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GPTChat.xcdatamodel; sourceTree = "<group>"; };
+		AC7796A229DAEEDA00AB94CB /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		AC77968D29DAECF300AB94CB /* GPTChat */ = {
 			isa = PBXGroup;
 			children = (
+				AC7796A129DAEEC100AB94CB /* Models */,
 				AC77968E29DAECF300AB94CB /* GPTChatApp.swift */,
 				AC77969029DAECF300AB94CB /* ContentView.swift */,
 				AC77969229DAECF400AB94CB /* Assets.xcassets */,
@@ -71,6 +74,14 @@
 				AC77969529DAECF400AB94CB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC7796A129DAEEC100AB94CB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AC7796A229DAEEDA00AB94CB /* Models.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +158,7 @@
 				AC77969129DAECF300AB94CB /* ContentView.swift in Sources */,
 				AC77968F29DAECF300AB94CB /* GPTChatApp.swift in Sources */,
 				AC77969B29DAECF400AB94CB /* GPTChat.xcdatamodeld in Sources */,
+				AC7796A329DAEEDA00AB94CB /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
