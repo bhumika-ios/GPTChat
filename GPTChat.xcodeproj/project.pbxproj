@@ -20,6 +20,7 @@
 		AC7796AE29DAF2D700AB94CB /* MacOSSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7796AD29DAF2D700AB94CB /* MacOSSettingsView.swift */; };
 		AC7796B029DAF31E00AB94CB /* PromptsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7796AF29DAF31E00AB94CB /* PromptsListView.swift */; };
 		AC7796B229DAF37B00AB94CB /* CustomPromptsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7796B129DAF37B00AB94CB /* CustomPromptsView.swift */; };
+		AC7796B529DAF3DC00AB94CB /* DialogueSessionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7796B429DAF3DC00AB94CB /* DialogueSessionListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		AC7796AD29DAF2D700AB94CB /* MacOSSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOSSettingsView.swift; sourceTree = "<group>"; };
 		AC7796AF29DAF31E00AB94CB /* PromptsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptsListView.swift; sourceTree = "<group>"; };
 		AC7796B129DAF37B00AB94CB /* CustomPromptsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPromptsView.swift; sourceTree = "<group>"; };
+		AC7796B429DAF3DC00AB94CB /* DialogueSessionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogueSessionListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		AC7796A929DAF1BE00AB94CB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				AC7796B329DAF3AB00AB94CB /* DialogueList */,
 				AC7796AA29DAF1C700AB94CB /* Setting */,
 			);
 			path = View;
@@ -115,6 +118,14 @@
 				AC7796B129DAF37B00AB94CB /* CustomPromptsView.swift */,
 			);
 			path = Setting;
+			sourceTree = "<group>";
+		};
+		AC7796B329DAF3AB00AB94CB /* DialogueList */ = {
+			isa = PBXGroup;
+			children = (
+				AC7796B429DAF3DC00AB94CB /* DialogueSessionListView.swift */,
+			);
+			path = DialogueList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +214,7 @@
 				AC77968F29DAECF300AB94CB /* GPTChatApp.swift in Sources */,
 				AC77969B29DAECF400AB94CB /* GPTChat.xcdatamodeld in Sources */,
 				AC7796A329DAEEDA00AB94CB /* Models.swift in Sources */,
+				AC7796B529DAF3DC00AB94CB /* DialogueSessionListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
